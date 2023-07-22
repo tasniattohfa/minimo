@@ -1,0 +1,67 @@
+/* common css start */
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #626262;
+  }
+  
+  /* common css end */
+  
+  /* header start */
+  header {
+    padding: 15px 0px;
+    /* border-bottom: 2px solid #f0f2f4; */
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 90%;
+    /* border: 1px solid red; */
+    overflow: hidden;
+  }
+  
+  .logo {
+    width: 10%;
+    /* border: 1px solid black; */
+    float: left;
+  }
+  
+  .logo img {
+    width: 100%;
+  }
+  
+  .menu {
+    width: 50%;
+    /* border: 1px solid black; */
+    float: right;
+  }
+  
+  .menu ul {
+    float: right;
+  }
+  
+  .menu ul li {
+    list-style: none;
+    float: left;
+  }
+  
+  .menu ul li a {
+    display: inline-block;
+    padding: 0px 25px;
+    color: #0f2656;
+    text-decoration: none;
+    transition: .33s;
+  }
+  
+  .menu ul li:last-child a {
+    padding-right: 0px;
+  }
+  
+  .menu ul li a:hover {
+    color: black;
+  
+  }
+  
+  /* header end */
