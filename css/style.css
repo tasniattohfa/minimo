@@ -106,47 +106,170 @@ header {
 
 .c_title {
   margin: 15px 0 25px;
-  font-size:30px;
+  font-size: 30px;
   font-weight: 400;
 }
 
 .c_text {
-  margin: 0 ;
+  margin: 0;
   line-height: 24px;
 }
-.mb_45{
+
+.mb_45 {
   margin-bottom: 45px;
 }
+
 /* weekend end */
 
 /* blog start */
 
-.blog{
-  padding:0 0 80px;
+.blog {
+  padding: 0 0 80px;
 }
-.s_blog{
+
+.s_blog {
   margin-top: 80px;
   width: 47%;
   /* border: 1px solid black; */
   float: left;
   box-sizing: border-box;
 }
-.s_blog:nth-child(even){
+
+.s_blog:nth-child(even) {
   margin-left: 6%;
 }
-.s_img{
+
+.s_img {
   margin-bottom: 20px;
 }
-.s_img img{
+
+.s_img img {
   width: 100%;
 }
 
 /* blog end */
 
 /* newsletter start */
-.news{
-  min-height: 300px;
+.news {
+  padding: 70px 0;
   background-color: #ddd;
+
 }
+
+.signup {
+  text-align: center;
+}
+
+.signup_h1 {
+  margin-top: 0;
+  margin-bottom: 70px;
+  color: #333333;
+}
+
+.signup_form {
+  margin: 0 auto;
+  width: 400px;
+  position: relative;
+}
+
+.signup_form input {
+  padding-left: 5px;
+  padding-right: 40px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #626262;
+  width: 345px;
+  height: 45px;
+  border: none;
+  border-bottom: 1px solid #333333;
+  background: transparent;
+}
+
+.signup_form input:focus {
+  outline: 0;
+}
+
+.signup_form button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+
+.signup_form button {
+  outline: 0;
+}
+
+.signup_form button img {}
+
 /* newsletter end */
 
+/* button start */
+.container3 {
+  margin: 160px 0;
+}
+
+.button {
+  margin: 0 auto;
+  padding: 22px 33px;
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  color: #626262;
+  background-color: transparent;
+  border: 1px solid #626262;
+  transition: .33s;
+}
+
+.button:hover {
+  background-color: #626262;
+  color: #ddd;
+}
+
+/* button end */
+
+/* footer start */
+
+.footer {
+  margin: 40px 0;
+  height: 96px;
+  background-color: #f0f0f0;
+}
+
+.menu2 {
+  margin: 0;
+  padding: 0;
+  width: 30%;
+  float: left;
+}
+
+.menu2 ul {}
+
+.menu2 ul li {
+  margin: 25px 0;
+  padding: 0 11px;
+  display: inline-block;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 14px;
+  list-style: none;
+  color: #000;
+}
+
+.menu2 ul li:first-child {
+  margin-left: 120px;
+}
+
+.menu3 {
+  width: 50%;
+  float: right;
+}
+.menu3 ul li:first-child{
+  margin-left: 300px;
+}
+
+
+/* footer end */
