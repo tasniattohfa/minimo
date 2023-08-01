@@ -263,6 +263,17 @@ header {
   margin-left: 120px;
 }
 
+.menu2 ul li a{
+
+  border-bottom: 1px transparent #626262;
+  
+}
+
+.menu2 ul li a:hover{
+  
+  border-bottom: 1px solid #626262;
+}
+
 .menu3 {
   width: 50%;
   float: right;
